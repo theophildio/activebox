@@ -1,0 +1,179 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .header-content {
+    width: 90%;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgb(197, 36, 36);
+    background: #ff00009c;
+  }
+  #banner {
+    min-height: 655px;
+  }
+  .banner-text h2 {
+    font-size: 26px;
+  }
+  .banner-content {
+    margin-top: 70px;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+  .banner-text {
+    padding: 0 10px;
+  }
+  .team-content {
+    width: 55%;
+  }
+  .card {
+    text-align: center;
+  }
+  #team {
+    padding: 46px 0;
+  }
+  #testimonials blockquote {
+    padding: 30px 10% 30px;
+  }
+  #testimonials p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #testimonials .author {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .flex-control-nav {
+    top: 94%;
+    right: 25%;
+  }
+  .flex-control-paging li a {
+    width: 9px;
+    height: 9px;
+  }
+  #download {
+    padding: 36px 0;
+  }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .header-content {
+    width: 80%;
+  }
+  .banner-text {
+    padding: 0 10px;
+  }
+  .banner-text h2 {
+    font-size: 36px;
+  }
+  .banner-content {
+    position: relative;
+    margin-top: 75px;
+    z-index: 10;
+  }
+  #banner {
+    min-height: 600px;
+  }
+  #team {
+    padding: 46px 0;
+  }
+  .team-content {
+    width: 60%;
+  }
+  .card {
+    text-align: center;
+  }
+  #testimonials blockquote {
+    padding: 30px 10% 30px;
+  }
+  #testimonials p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #testimonials .author {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .flex-control-nav {
+    top: 94%;
+    right: 25%;
+  }
+  .flex-control-paging li a {
+    width: 9px;
+    height: 9px;
+  }
+  #download {
+    padding: 36px 0;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #banner {
+    min-height: 645px;
+  }
+  .banner-text h2 {
+    font-size: 36px;
+  }
+  .banner-text {
+    padding: 0 30px;
+  }
+  .banner-content {
+    margin-top: 60px;
+  }
+  #features {
+    padding: 40px 0;
+  }
+  .work-box img {
+    min-height: 250px;
+  }
+  .team-content {
+    width: 75%;
+  }
+  #testimonials blockquote {
+    padding: 90px 10%;
+  }
+  #testimonials p {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  #testimonials .author {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .flex-control-nav {
+    top: 90%;
+    right: 25%;
+  }
+  .flex-control-paging li a {
+    width: 12px;
+    height: 12px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #banner {
+    min-height: 670px;
+  }
+  .banner-content {
+    margin-top: 90px;
+  }
+  .banner-text {
+    padding: 0 55px;
+  }
+  .banner-text h2 {
+    font-size: 48px;
+  }
+  #testimonials blockquote {
+    padding: 40px 17% 0;
+  }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+  #testimonials blockquote {
+    padding: 40px 17% 0;
+  }
+}

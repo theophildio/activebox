@@ -1,0 +1,416 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner Starts Here */
+
+#banner {
+  background: url(images/main-bg.png);
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  position: relative;
+}
+
+#banner::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(42, 46, 72, 0.8);
+}
+
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.header-content {
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.main-menu .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.main-menu li {
+  margin-right: 40px;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu a {
+  color: #a1a3af !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.banner-content {
+  position: relative;
+  margin-top: 150px;
+  z-index: 10;
+}
+
+.banner-text {
+    padding: 0 75px;
+}
+
+.banner-text h2 {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.banner-text p {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 30px;
+}
+
+.banner-text .btn {
+  margin: 75px 0;
+  padding: 10px 40px !important;
+  text-transform: uppercase;
+}
+
+/* Banner Ends Here */
+
+/* Features Starts Here */
+
+#features {
+  padding: 100px 0;
+}
+
+
+
+.icon {
+  padding-bottom: 35px;
+}
+
+.features-text {
+  margin-top: 30px;
+  padding: 0 25px;
+}
+
+.features-text h4 {
+  padding-bottom: 30px;
+  color: #2d3033;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features-text p {
+  color: #6c7279;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.features-content {
+  margin-top: 45px;
+}
+
+/* Features Ends Here */
+
+/* Works Starts Here */
+
+.work-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.work-box img {
+  width: 100%;
+  min-height: 350px;
+}
+
+.work-box .overlay {
+  position: absolute;
+  background-color: rgb(214, 67, 67, 0.9);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.work-box .overlay .overlay-caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.work-box .overlay .overlay-caption h5 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.work-box .overlay .overlay-caption p{
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.work-box:hover .overlay {
+  opacity: 1;
+}
+
+.work-box:hover .overlay .overlay-caption {
+  opacity: 1;
+}
+
+
+/* Works Endss Here */
+
+/* Team Starts Here */
+
+#team {
+  padding: 100px 0;
+}
+
+.team-content {
+  width: 90%;
+}
+
+.team-content img {
+  max-width: 100%;
+}
+
+.team-text {
+  margin-top: 30px;
+}
+
+.team-text h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2d3033;
+}
+
+.team-text h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #e84545;
+  text-transform: uppercase;
+}
+.team-text p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #6c7279;
+  margin-top: 30px;
+}
+
+.social-icons {
+  margin: 25px 0;
+}
+
+.social-icons ul {
+  padding: 0;
+  list-style: none;
+}
+
+.social-icons ul li {
+  background: #ffffff;
+  display: inline-block;
+}
+
+.social-icons ul li:last-child a{
+ margin-right: 0;
+
+}
+
+.social-icons ul li a {
+  font-size: 14px;
+  color: #a1a3af;
+  display: inline-block;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #a1a3af;
+  margin-right: 8px;
+}
+
+.social-icons ul li:hover a {
+  background-color: #e84545;
+  border: 1px solid #e84545;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+/* Team Ends Here */
+
+/* Testimonials CSS  */
+
+#testimonials {
+  background: #53354a;
+}
+
+#testimonials .col-lg-6 {
+  float: left;
+}
+
+
+#testimonials p {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Cardo', serif;
+  line-height: 42px;
+}
+
+#testimonials .author {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#testimonials blockquote {
+  padding: 100px 17% 0;
+}
+
+.flex-control-nav {
+	top: 90%;
+}
+
+/* Testimonials CSS Ends */
+
+/* Download CSS Starts */
+
+#download {
+  padding: 100px 0;
+}
+
+#download h3 {
+  margin-top: 0;
+  color: #737577;
+  font-weight: 300;
+  font-size: 28px; 
+}
+#download p {
+  color: #2d3033;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px; 
+}
+#download .btn {
+  margin-top: 30px; 
+}
+
+/* Download CSS Ends */
+
+/* Footer CSS Starts */
+
+.footer-top {
+  background-color: #3a3e64;
+  padding: 50px 0; 
+}
+.footer-bottom {
+  background-color: #313454;
+  padding: 20px 0; 
+}
+#footer .footer-col {
+  margin-bottom: 80px;
+ }
+#footer h5 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px; 
+}
+#footer h5 {
+  margin-bottom: 20px;
+ }
+#footer p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px; 
+}
+
+.footer-col  ul {
+  padding: 0;
+  
+}
+
+.footer-col ul li {
+  background: transparent;
+  display: inline-block;
+}
+
+.footer-col ul li a {
+  color: #ffffff;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #a1a3af;
+  margin-right: 10px;
+  display: block;
+}
+
+.footer-col ul li:last-child a {
+  margin-right: 0;
+}
+
+.footer-col ul li:hover a {
+  background-color: #e84545;
+  border: 1px solid #e84545;
+}
+
+#footer a:hover {
+    color: #ffffff; 
+}
+
+#footer .fa-heart {
+  color: #e84545;
+  font-size: 11px;
+  margin: 0 2px; 
+}
+
+.footer-bottom a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Footer CSS Ends */
+
